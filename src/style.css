@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#background {
+  background-color: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#btn {
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  font-size: large;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0px 11px 6px rgb(0, 0, 0, 0.17);
+  position: relative;
+}
+#note {
+  position: absolute;
+  bottom: 80px;
+  min-width: 100px;
+  left: 20px;
+  background-color: aliceblue;
+  padding: 6px;
+  border-radius: 6px 6px 6px 0;
+  z-index: 1;
+}
+.arrow {
+  background-color: aliceblue;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -12.5px;
+  left: -0.015px;
+  border-radius: 500px 500px 500px 0;
+  rotate: -45deg;
+  z-index: -1;
+}
